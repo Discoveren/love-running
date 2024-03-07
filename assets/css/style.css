@@ -93,10 +93,15 @@ main {
 /* Footer */
 #social-networks {
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+}
+
+#social-networks i {
+    transform: scale(1.5);
+    color: #3a3a3a;
 }
 /* Media query: tablets and larger (780px and up) */
 @media screen and (min-width: 768px) {
@@ -122,7 +127,7 @@ main {
     }
 
     #logo {
-        font-size: 200%;
+        font-size: 200% !important;
         line-height: 75px;
         margin: 0 0.5rem;
     }
